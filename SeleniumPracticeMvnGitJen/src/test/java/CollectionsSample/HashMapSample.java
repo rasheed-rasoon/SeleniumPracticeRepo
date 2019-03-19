@@ -1,9 +1,12 @@
 package CollectionsSample;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
+import java.util.Set;
 
 
 
@@ -80,8 +83,18 @@ public static void hashMapToArrayList()
 
 
 	hMap.put("Balu",2);
+	hMap.put("Balu",3);
 	
+	Set<String> set=hMap.keySet();
 	
+	ArrayList<String> list=new ArrayList<>(set);
+	System.out.println("ArrayList after conversion");
+	for(String str:list)
+	{
+		
+		System.out.println(str);
+		
+	}
 	
 	
 	
@@ -94,8 +107,8 @@ public static void main(String args[])
 
 {
 	//HashMapSample.hashMapAddElements();	
-	HashMapSample.HashMapIterations();
-	
+	//HashMapSample.HashMapIterations();
+	HashMapSample.hashMapToArrayList();
 }
 
 }
