@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38" started-at="2019-03-19T11:22:16Z" finished-at="2019-03-19T11:22:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38" started-at="2019-03-19T11:22:16Z" finished-at="2019-03-19T11:22:16Z">
+      <class name="testNGSample.PrioritySample">
+        <test-method status="PASS" signature="method1()[pri:0, instance:testNGSample.PrioritySample@735b5592]" name="method1" duration-ms="13" started-at="2019-03-19T16:52:16Z" finished-at="2019-03-19T16:52:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:testNGSample.PrioritySample@735b5592]" name="method2" duration-ms="3" started-at="2019-03-19T16:52:16Z" finished-at="2019-03-19T16:52:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method5()[pri:0, instance:testNGSample.PrioritySample@735b5592]" name="method5" duration-ms="2" started-at="2019-03-19T16:52:16Z" depends-on-methods="testNGSample.PrioritySample.method2" finished-at="2019-03-19T16:52:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method5 -->
+      </class> <!-- testNGSample.PrioritySample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
